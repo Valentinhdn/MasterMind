@@ -39,7 +39,7 @@ Jouez en local à la célèbre énigme de logique où vous devez **deviner la co
 Assurez-vous d’avoir **Python 3.9+** installé.
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/mastermind-python-gui.git
+git clone https://github.com/Valentinhdn/mastermind-python-gui.git
 cd mastermind-python-gui
 pip install PySide6
 ```
@@ -53,4 +53,5 @@ python3 -m PyInstaller --onefile --windowed main.py
 ### Pour ajouter un logo à l'app :
 ```bash
 python3 -m PyInstaller --onefile --windowed --icon=MasterMind.ico main.py
+
 ```

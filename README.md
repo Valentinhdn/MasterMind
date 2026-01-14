@@ -42,6 +42,7 @@ Assurez-vous d’avoir **Python 3.9+** installé.
 git clone https://github.com/Valentinhdn/MasterMind.git
 cd MasterMind
 pip install PySide6
+python3 main.py
 ```
 
 ## Compiler en .exe
@@ -55,5 +56,6 @@ python3 -m PyInstaller --onefile --windowed main.py
 python3 -m PyInstaller --onefile --windowed --icon=MasterMind.ico main.py
 
 ```
+
 
 

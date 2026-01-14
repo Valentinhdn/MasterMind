@@ -40,7 +40,7 @@ Assurez-vous d’avoir **Python 3.9+** installé.
 
 ```bash
 git clone https://github.com/Valentinhdn/MasterMind.git
-cd mastermind-python-gui
+cd MasterMind
 pip install PySide6
 ```
 
@@ -55,4 +55,5 @@ python3 -m PyInstaller --onefile --windowed main.py
 python3 -m PyInstaller --onefile --windowed --icon=MasterMind.ico main.py
 
 ```
+
 
